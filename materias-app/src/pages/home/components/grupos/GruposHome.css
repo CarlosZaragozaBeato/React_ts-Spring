@@ -1,0 +1,30 @@
+.grupos_container{
+    width: 49%;
+    min-width: 250px;
+    max-height: 40vh;
+    overflow: hidden;
+    overflow-y:scroll;
+    padding: 1rem 1rem 0rem 1rem ;  
+}
+
+
+
+/* width */
+ .grupos_container::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  /* Track */
+  .grupos_container::-webkit-scrollbar-track {
+    background-color:var(--light_pink);
+  }
+  
+  /* Handle */
+  .grupos_container::-webkit-scrollbar-thumb {
+    background-color:#ce777788;
+  }
+  
+  /* Handle on hover */
+   .grupos_container::-webkit-scrollbar-thumb:hover {
+    background-color:var(--light_red);
+  }
